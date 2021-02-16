@@ -14,3 +14,11 @@ $ ulimit -n 5000000
 $ mkdir -p by-ticker
 $ xsv partition 3 by-ticker ftds.csv
 ```
+
+Dumb way to make a quick db given the csv:
+```
+$ sqlite3 < ftds.sql
+$ sqlite3 ftds.db
+sqlite> select * from ftds where symbol = "GME" order by 1 desc limit 1;
+20210129|36467W109|GME|138179|GAMESTOP CORP (HLDG CO) CL A|193.60
+```
