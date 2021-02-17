@@ -1,3 +1,3 @@
 .open ftds.db
 .mode csv
-.import ftds.csv ftds
+.import out/ftds.csv ftds
