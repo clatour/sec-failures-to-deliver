@@ -1,4 +1,4 @@
-## SEC Failures-To-Deliver
+## SEC Failures To Deliver
 
 ```
 # First install `xsv` if you don't have it:
